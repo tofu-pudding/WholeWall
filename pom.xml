@@ -9,6 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
+	<modules>
+		<module>wholewall-webapi</module>
+	</modules>
+
 	<groupId>com.hxp</groupId>
 	<artifactId>wholewall</artifactId>
 	<version>${revision}</version>
@@ -29,15 +33,6 @@
 			<optional>true</optional>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 	<repositories>
 		<repository>
