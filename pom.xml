@@ -8,24 +8,25 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.hxp</groupId>
 	<artifactId>wholewall</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${revision}</version>
+	<packaging>pom</packaging>
 	<name>wholewall</name>
-	<description>Demo project for Spring Boot</description>
+	<description>满墙，图书管理软件，基于java和python</description>
+	<url>https://github.com/tofu-pudding/WholeWall</url>
+
+
 	<properties>
 		<java.version>21</java.version>
+		<revision>0.0.1-SNAPSHOT</revision>
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
